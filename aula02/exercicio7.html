@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 7</title>
+</head>
+<body>
+
+<h1>Exercício 7</h1>
+<p id="resultado"></p>
+
+<script>
+
+    // Recebendo as 3 notas
+    let nota1 = Number(prompt("Digite a primeira nota:"));
+    let nota2 = Number(prompt("Digite a segunda nota:"));
+    let nota3 = Number(prompt("Digite a terceira nota:"));
+
+    // Calculando média
+    let media = (nota1 + nota2 + nota3) / 3;
+
+    // Exibindo resultado
+    document.getElementById("resultado").innerHTML =
+        "A média do aluno é: " + media;
+
+</script>
+
+</body>
+</html>

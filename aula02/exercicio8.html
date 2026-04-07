@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 8</title>
+</head>
+<body>
+
+<h1>Exercício 8</h1>
+<p id="resultado"></p>
+
+<script>
+
+    // Recebendo dados
+    let peso = Number(prompt("Digite seu peso (kg):"));
+    let altura = Number(prompt("Digite sua altura (m):"));
+
+    // Cálculo do IMC
+    let imc = peso / (altura * altura);
+
+    // Exibindo resultado
+    document.getElementById("resultado").innerHTML =
+        "Seu IMC é: " + imc;
+
+</script>
+
+</body>
+</html>

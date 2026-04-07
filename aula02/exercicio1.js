@@ -1,11 +1,10 @@
-function calcular() {
-    let numero = prompt("Digite um número:");
+function exercicio1() 
+{
+    let numero = Number( document.getElementById("numero").value);
 
-    numero = Number(numero);
+    var celsius = Number(numero - 32) * 5/9;
 
-    let quadrado = numero * numero;
-    let cubo = numero * numero * numero;
-
-    alert("Quadrado: " + quadrado);
-    alert("Cubo: " + cubo);
+    document.getElementById("resultado").innerHTML=
+    "<p> Atemperatura em Celcius é " + celsius + "<p>"
 }
+    
